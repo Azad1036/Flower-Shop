@@ -11,7 +11,7 @@
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 40px;
+    padding: 14px 15px;
     color: #FFFFFF;
     border: none;
     font-size: 20px;
@@ -66,9 +66,9 @@ header {
 
 .future-section-header {
     text-align: center;
-    margin: auto auto;
-    max-width: 600px;
-    margin-bottom: 36px;
+    width: 445px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 
 }
 
@@ -79,7 +79,8 @@ header {
 
 .future-section-header p {
     color: #27272799;
-    font-size: 18px;
+    font-size: 13px;
+    margin-top: 22px;
 }
 
 .future-images-container {
@@ -92,9 +93,9 @@ header {
 .future-images1 {
     border-radius: 300px 300px 0px 0px;
     background: #A7216226;
-    padding: 50px 30px 0px 30px;
+    padding: 50px 20px 0px 20px;
     height: 435px;
-    width: 348px;
+    width: 320px;
     display: flex;
 }
 
@@ -109,4 +110,180 @@ header {
     text-align: center;
     text-decoration-line: underline;
     margin-top: 30px;
+}
+
+/* Support releted style */
+.support-container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.support-container>div {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 100px;
+}
+
+.Support-container-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Offer releted style */
+.offer-container {
+    background: #E554730D;
+    border-radius: 8px;
+    padding: 100px 0px;
+}
+
+.offer-section {
+    display: flex;
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-hot-deal {
+    max-width: 435px;
+}
+
+.offer-hot-deal h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+}
+
+.offer-hot-deal p {
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: 400;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.offer-image {
+    width: 318px;
+}
+
+.btn {
+    text-align: center;
+}
+
+/* Instagram releted style */
+.instagram-container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 128px auto;
+}
+
+.instagram-text-section {
+    text-align: center;
+    width: 446px;
+    margin: auto;
+
+}
+
+.instagram-text-section h3 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.instagram-text-section p {
+    color: #27272799;
+    margin: 24px 0px 24px 0px;
+}
+
+.intragram-images-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.intragram-flower-image img {
+    width: 100%;
+}
+
+/* Subcribe releted style */
+.subcribe-container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.subcribe-images {
+    background-image: url("../FlowerAsset/Rectangle9.png");
+    padding: 110px 0px;
+    border-radius: 10px;
+}
+
+.subcribe-text {
+    text-align: center;
+    width: 446px;
+    margin: auto;
+
+}
+
+.subcribe-text h3 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.subcribe-text p {
+    color: #27272799;
+    margin: 16px 0px 48px 0px;
+
+}
+
+.subcribe-images form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.subcribe-images form input {
+    flex-grow: 1;
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+}
+
+/* footer releted style */
+footer {
+    background: #111010;
+}
+
+.footer-container {
+    padding: 128px 0;
+    max-width: 470px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+span {
+    color: #E55473;
+}
+
+.footer-container h3 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.footer-container > p {
+    color: #FFFFFFE6;
+    margin: 24px 0px 32px 0px;
+}
+
+.copyright-flower-shop {
+    color: #FFFFFF66;
 }
