@@ -7,8 +7,17 @@
     font-family: "Lato", sans-serif;
 }
 
-/* header releted style */
+/* Share releted style */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+}
 
+/* header releted style */
 header {
     background: #E554731A;
 }
@@ -17,15 +26,87 @@ header {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 .banner {
     display: flex;
     align-items: center;
+
 }
 
 .banner h1 {
     color: rgb(39, 39, 39);
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
+}
+
+.banner p {
+    color: #27272799;
+    font-size: 18px;
+}
+
+.banner-text-section * {
+    max-width: 531px;
+    margin-bottom: 25px;
+}
+
+.banner-container img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* future releted style */
+
+.future-container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 133px auto 96px auto;
+}
+
+.future-section-header {
+    text-align: center;
+    margin: auto auto;
+    max-width: 600px;
+    margin-bottom: 36px;
+
+}
+
+.future-section-header h1 {
+    color: #272727;
+    font-size: 40px;
+}
+
+.future-section-header p {
+    color: #27272799;
+    font-size: 18px;
+}
+
+.future-images-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.future-images1 {
+    border-radius: 300px 300px 0px 0px;
+    background: #A7216226;
+    padding: 50px 30px 0px 30px;
+    height: 435px;
+    width: 348px;
+    display: flex;
+}
+
+.future-images1 img {
+    width: 100%;
+}
+
+.flower p {
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 30px;
 }
